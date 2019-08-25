@@ -10,7 +10,7 @@
 Every result is avg of 20 runs. Optimizer uses a "flat and anneal" learning rate scheduler unless specified (e.g. "OneCycle")
 
 | Dataset  | Baseline: Adam + OneCycle | Over9000 (RAdam + LARS + LookAHead) | Ralamb (RAdam + LARS) | Ranger (RAdam + LookAHead)| Novograd | Radam | Over9000 + OneCycle |
-| ------------- | ------------- | --|-- | -- | -- | -- |
+| ------------- | ------------- | --|-- | -- | -- | -- | -- |
 | Imagenette size 128, 5 epochs | 0.8577  | 0.8746 | 0.8657 | 0.8616 | 0.8724 | 0.8483 | 0.8692 |
 | Imagewoof size 128, 5 epochs  | 0.6250  | 0.6539 | 0.5851 | 0.6086 | 0.6189 | 0.542 | TBD |
 
